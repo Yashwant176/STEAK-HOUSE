@@ -1,0 +1,132 @@
+{% load static %}
+
+
+<html>
+<head>
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="{% static 'style2.css' %}"></link>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="container-fluid">
+
+<ul class="nav" style="box-shadow:3px 3px 5px #aa960a" id="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#" id="bye"><i>SteakHouse</i></a>
+    </li>
+    <li class="nav-item" style="padding-left:60%">
+      <a class="nav-link" href="{% url 'home' %}" id="hii">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'about' %}" id="hii">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'contact' %}" id="hii">Contact</a>
+    </li>
+</ul>
+
+
+
+<!--About Page matter-->
+<div>
+   <div class="row mt-3">
+     <div class="col-5">
+       <img src="{% static 'about.jpg'%}" style="width:100%;height:80%"></img>
+     </div>
+     <!------>
+     <div class="col-7">
+       <h1><i>About Us</i></h1>
+       <p>Welcome to <b>SteakHouse</b> , where culinary excellence meets warm hospitality. Our story is one of passion, dedication, and a commitment to delivering an exceptional dining experience to our cherished guests.</p>
+       <p>At SteakHouse , our journey began with a simple yet profound vision – to create a haven for food enthusiasts, a place where flavors come alive, and memories are made. Established in <b>1990</b>, we embarked on this culinary adventure with the aim of offering a unique blend of delectable cuisine, inviting ambiance, and impeccable service.The experiences of our guests shape our journey. We value your feedback and continually strive to improve.</p>
+       <p><b>Mulleti Krishnamurthy</b></p>
+       <p>Founder & Owner, SteakHouse</p>
+     </div>
+   </div>
+</div>
+
+
+
+
+
+<div>
+  <center>
+     <h3 id="tm">____Team Members____</h3>
+     <h1 style="color:#4A1D1D">Our Master Chefs</h1>
+  </center>
+</div>
+
+
+<div class="row mt-4">
+
+  <div class="col-4">
+        <img src="{% static 'team-2.jpg' %}" style="width:70%;height:60%;border-radius:50%;margin-left:15%"></img>
+        <center>
+        <h3 style="color:#4A1D1D">Venkat Ramana</h3>
+        <p>Main Course Specialist</p>
+        </center>
+  </div>
+
+
+
+  <div class="col-4">
+        <img src="{% static 'team-3.jpg' %}" style="width:70%;height:60%;border-radius:50%;margin-left:15%"></img>
+        <center>
+        <h3 style="color:#4A1D1D">Suresh Kumar</h3>
+        <p>Snack Items Specialist</p>
+        </center>
+  </div>
+
+
+  <div class="col-4">
+        <img src="{% static 'team-4.jpg' %}" style="width:70%;height:60%;border-radius:50%;margin-left:15%"></img>
+        <center>
+        <h3 style="color:#4A1D1D">Raju Rastogi</h3>
+        <p>Chinese Specialist</p>
+        </center>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+<!--Footer Section-->
+<div id="footer">
+   <div class="row">
+     
+       <div class="col-5">
+           <h3 class="mt-3" style="color:white;text-shadow:1px 1px 1px #aa960a;padding-left:30px"><i>SteakHouse</i></h3>
+           <p style="padding-left:30px;color:white">We are the best quality and Traditional Restaurant
+Since 1990</p>
+          <img src="{% static 'logo.jpg' %}" style="width:150px;height:70px;margin-left:30px"></img>
+       </div>
+       <!---------------->
+       <div class="col-3" style="color:white;padding-left:30px">
+          <p class="mt-3" style="text-decoration:2px solid #aa960a underline">CONTACT US</p>
+          <p>+918222567799</p>
+          <p>+918222567798</p>
+          <p>steakhouse@gamil.com</p>
+       </div>
+       <!---------------->
+       <div class="col-3" style="color:white;padding-left:30px">
+          <p class="mt-3" style="text-decoration:2px solid #aa960a underline">ADDRESS</p>
+          <p>11-8-9/1,3rd floor</p>
+          <p>3rd-Lane,Dwarkanagar,Vizag</p>
+          <p>Andhra Pradesh,India</p>
+       </div>
+
+   </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

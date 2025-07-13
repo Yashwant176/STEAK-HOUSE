@@ -1,0 +1,153 @@
+{% load static %}
+
+
+<html>
+<head>
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}"></link>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdnsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="container-fluid">
+
+<ul class="nav" style="box-shadow:3px 3px 5px #aa960a" id="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#" id="bye"><i>SteakHouse</i></a>
+    </li>
+    <li class="nav-item" style="padding-left:60%">
+      <a class="nav-link" href="{% url 'home' %}" id="hii">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'about' %}" id="hii">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'contact' %}" id="hii">Contact</a>
+    </li>
+</ul>
+
+
+
+<!--Background Image-->
+
+<div id="back" style="width:100%;margin-top:5px;height:90%;background-image:url('{% static 'back.jpg' %}');background-size:100% 100%;background-repeat:no-repeat">
+   <div id="text">
+         <h1>A Premium</h1>
+         <h1>And Authentic</h1>
+         <h1>SteakHouse</h1>
+         <button class="mt-3 btn btn-outline-dark text-light">Book A Table</button>
+   </div>
+</div>
+
+
+<!--Special Items-->
+
+<hr class="mt-5"></hr>
+<div id="headspecial">
+    <marquee scrollamount="25">
+        <h1>Taste Our Specials!
+            &nbsp
+            &nbsp
+            &nbsp
+            &nbsp
+            Taste Our Specials!
+            &nbsp
+            &nbsp
+            &nbsp
+            &nbsp
+            Taste Our Specials!
+            </h1>
+    </marquee>
+</div>
+<hr></hr>
+
+
+<div id="special">
+
+   <div class="row mt-2" id="h">
+      <div class="col-5">
+         <img src="{% static 'biryani2.avif' %}" id="bir"></img>
+      </div>
+      <div class="col-7">
+          <center>
+          <h1 class="mt-4" id="t">Biryani </h1>
+          <p id="t1">The perfect plate of biryani is bliss, and is 
+          complete in itself. The Perfect plate of biryani draws
+          you in with the scent, and then it keeps you there
+          as soon as the first mouthful hits your senses.</p></center>
+      </div>
+   </div>
+
+   <hr></hr>
+
+   <div class="row mt-2" id="h">
+      <div class="col-7">
+          <center>
+          <h1 id="t" class="mt-4">Chinese</h1>
+          <p id="t1">The perfect plate of Chinese dishes is bliss, and is 
+          complete in itself. Chinese dishes are one of the top 
+          rated in Our Restaurant. For every Occassion there is 50%
+             offer on chinese dishes.</p>
+          </center>
+      </div>
+      <div class="col-5">
+         <img src="{% static 'noodle.jpg' %}" id="noo"></img>
+      </div>
+   </div>
+
+   <hr></hr>
+
+   <div class="row mt-2" id="h">
+      <div class="col-5">
+         <img src="{% static 'burger.jpg' %}" id="bir"></img>
+      </div>
+      <div class="col-7">
+          <center>
+          <h1 class="mt-4" id="t">Evening Snacks </h1>
+          <p id="t1">Pizza Cravings ? Get it delivered Hot & Fresh.
+          Burger Cravings ? Get the best fresh burger , with offers.
+          French Fries Cravings ? Get the best french fries. The taste is 
+          authentic.Every weekend there is special offers on Snack Items.</p></center>
+      </div>
+   </div>
+  
+</div>
+
+
+<hr></hr>
+
+
+<!--Footer Section-->
+<div id="footer">
+   <div class="row">
+     
+       <div class="col-5">
+           <h3 class="mt-3" style="color:white;text-shadow:1px 1px 1px #aa960a;padding-left:30px"><i>SteakHouse</i></h3>
+           <p style="padding-left:30px;color:white">We are the best quality and Traditional Restaurant
+Since 1990</p>
+          <img src="{% static 'logo.jpg' %}" style="width:150px;height:70px;margin-left:30px"></img>
+       </div>
+       <!---------------->
+       <div class="col-3" style="color:white;padding-left:30px">
+          <p class="mt-3" style="text-decoration:2px solid #aa960a underline">CONTACT US</p>
+          <p>+918222567799</p>
+          <p>+918222567798</p>
+          <p>steakhouse@gamil.com</p>
+       </div>
+       <!---------------->
+       <div class="col-3" style="color:white;padding-left:30px">
+          <p class="mt-3" style="text-decoration:2px solid #aa960a underline">ADDRESS</p>
+          <p>11-8-9/1,3rd floor</p>
+          <p>3rd-Lane,Dwarkanagar,Vizag</p>
+          <p>Andhra Pradesh,India</p>
+       </div>
+
+   </div>
+</div>
+
+
+
+
+
+</body>
+</html>

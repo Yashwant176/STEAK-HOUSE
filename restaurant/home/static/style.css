@@ -1,0 +1,114 @@
+#hii{
+    color:bisque;
+    text-shadow:2px 2px 4px #aa960a;
+}
+
+#hii:hover{
+    text-decoration:2px solid underline #aa960a;
+}
+
+#nav{
+    top:0px;
+    position:sticky;
+    background-color:black;
+}
+
+#bye{
+    color:white;
+    text-shadow:2px 2px 3px #aa960a;
+    font-weight:300px;
+    font-size:20px;
+}
+
+#text{
+    color:aliceblue;
+    text-align:right;
+    padding-top:50px;
+    padding-right:70px;
+    font-style:italic;
+    text-shadow:2px 2px 3px gray;
+}
+
+
+#headspecial{
+    text-align:center;
+    width:100%;
+    height:10%;
+    background-color:black;
+    color:white;
+    text-shadow:3px 3px 3px #aa960a;
+}
+
+#headspecial h1:hover{
+    color:#03b2b5
+}
+
+
+#special{
+    width:100%;
+    background-color:white
+}
+
+
+
+#bir{
+    width:80%;
+    height:70%;
+    margin-top:20px;
+    box-shadow:2px 2px 3px gray
+}
+
+#bir:hover{
+    box-shadow:2px 2px 3px #673A2A;
+    width:82%;
+    height:72%
+}
+
+
+#t{
+    color:#890f13;
+    text-shadow:2px 2px 3px gray;
+    font-style:Aerial;
+}
+
+#t:hover{
+    color:#6a0adb
+}
+
+t1{
+    color:black;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#t1:hover{
+    color:#76af46
+}
+
+bir:hover{
+    color:#043a3b
+}
+
+#noo{
+    width:80%;
+    height:70%;
+    margin-top:20px;
+    margin-left:30px;
+    box-shadow:2px 2px 3px gray
+}
+
+#noo:hover{
+    box-shadow:2px 2px 3px #673A2A;
+    width:82%;
+    height:72%
+}
+
+#footer{
+    background-color:black;
+    width:100%;
+    height:40%;
+}
+
+
+
+

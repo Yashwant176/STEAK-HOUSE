@@ -1,0 +1,37 @@
+#hii{
+    color:bisque;
+    text-shadow:2px 2px 4px #aa960a;
+}
+
+#hii:hover{
+    text-decoration:2px solid underline #aa960a;
+}
+
+#nav{
+    top:0px;
+    position:sticky;
+    background-color:black;
+}
+
+#bye{
+    color:white;
+    text-shadow:2px 2px 3px #aa960a;
+    font-weight:300px;
+    font-size:20px;
+}
+
+
+
+#tm{
+    color:#FE9900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+
+#footer{
+    background-color:black;
+    width:100%;
+    height:40%;
+}
+
